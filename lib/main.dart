@@ -17,10 +17,10 @@ import 'utils.dart';
 // +19712656927
 
 String token1 =
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzBjZTk1ZGQ0NmE0NzVmMjJkZjAwNWJlMTBkZWUwM2MyLTE3NDUyMzY1NDAiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJBbGljZUlkIiwidm9pY2UiOnsiaW5jb21pbmciOnsiYWxsb3ciOnRydWV9LCJvdXRnb2luZyI6eyJhcHBsaWNhdGlvbl9zaWQiOiJBUDBjZDQzNmRjMGFiYTU2YjE1MDRmZTY3MjdkMTY0NDRhIn0sInB1c2hfY3JlZGVudGlhbF9zaWQiOiJDUmQ4NjIxNjM4ZTcwMTUxZDRkMzgxMmFjNmM0NjA2YmFhIn19LCJpYXQiOjE3NDUyMzY1NDAsImV4cCI6MTc0NTI0MDE0MCwiaXNzIjoiU0swY2U5NWRkNDZhNDc1ZjIyZGYwMDViZTEwZGVlMDNjMiIsInN1YiI6IkFDNDVhNzgxNjM3OGZkOTNjNzhkZTA1YzgzNzk0NGJlNWQifQ.M-ViFxfRhBk2RtirlGICoFz90SXNCnu3HWu3g5DGZO8';
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2M3Y2Q5ZmM2YzBhMzM4NDMyODQxNjQ5N2E1OWYzZDYzLTE3NDUzMDU1MzYiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJBbGljZUlkIiwidm9pY2UiOnsiaW5jb21pbmciOnsiYWxsb3ciOnRydWV9LCJvdXRnb2luZyI6eyJhcHBsaWNhdGlvbl9zaWQiOiJBUDBjZDQzNmRjMGFiYTU2YjE1MDRmZTY3MjdkMTY0NDRhIn0sInB1c2hfY3JlZGVudGlhbF9zaWQiOiJDUjIxZTNiYWYyNGEwNWJlNzBlNjdkMmFjYTQ5ZjRhYTI0In19LCJpYXQiOjE3NDUzMDU1MzYsImV4cCI6MTc0NTMwOTEzNiwiaXNzIjoiU0tjN2NkOWZjNmMwYTMzODQzMjg0MTY0OTdhNTlmM2Q2MyIsInN1YiI6IkFDNDVhNzgxNjM3OGZkOTNjNzhkZTA1YzgzNzk0NGJlNWQifQ.rvLRNu2r_mjumbsD1Y292X9Qg9anC9vFAOIlDfFCJlw';
 String client1ID = "AliceId";
 String token2 =
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzBjZTk1ZGQ0NmE0NzVmMjJkZjAwNWJlMTBkZWUwM2MyLTE3NDUyMzY1NTMiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJCb2JJZCIsInZvaWNlIjp7ImluY29taW5nIjp7ImFsbG93Ijp0cnVlfSwib3V0Z29pbmciOnsiYXBwbGljYXRpb25fc2lkIjoiQVAwY2Q0MzZkYzBhYmE1NmIxNTA0ZmU2NzI3ZDE2NDQ0YSJ9LCJwdXNoX2NyZWRlbnRpYWxfc2lkIjoiQ1JkODYyMTYzOGU3MDE1MWQ0ZDM4MTJhYzZjNDYwNmJhYSJ9fSwiaWF0IjoxNzQ1MjM2NTUzLCJleHAiOjE3NDUyNDAxNTMsImlzcyI6IlNLMGNlOTVkZDQ2YTQ3NWYyMmRmMDA1YmUxMGRlZTAzYzIiLCJzdWIiOiJBQzQ1YTc4MTYzNzhmZDkzYzc4ZGUwNWM4Mzc5NDRiZTVkIn0._DjEqSVMbq3SQhZ-MPY3Cw0jSRT1S6A_BFQcvFTDPlA';
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTS2M3Y2Q5ZmM2YzBhMzM4NDMyODQxNjQ5N2E1OWYzZDYzLTE3NDUzMDU1MTMiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJCb2JJZCIsInZvaWNlIjp7ImluY29taW5nIjp7ImFsbG93Ijp0cnVlfSwib3V0Z29pbmciOnsiYXBwbGljYXRpb25fc2lkIjoiQVAwY2Q0MzZkYzBhYmE1NmIxNTA0ZmU2NzI3ZDE2NDQ0YSJ9LCJwdXNoX2NyZWRlbnRpYWxfc2lkIjoiQ1IyMWUzYmFmMjRhMDViZTcwZTY3ZDJhY2E0OWY0YWEyNCJ9fSwiaWF0IjoxNzQ1MzA1NTEzLCJleHAiOjE3NDUzMDkxMTMsImlzcyI6IlNLYzdjZDlmYzZjMGEzMzg0MzI4NDE2NDk3YTU5ZjNkNjMiLCJzdWIiOiJBQzQ1YTc4MTYzNzhmZDkzYzc4ZGUwNWM4Mzc5NDRiZTVkIn0.aGHclwTedXUwcxEo7cpESgIBqZG249LDvUV3lMPKFNI';
 String client2ID = "BobId";
 
 extension IterableExtension<E> on Iterable<E> {
@@ -149,6 +149,7 @@ class _AppState extends State<App> {
         title: const Text("Plugin example app"),
         actions: [
           _LogoutAction(
+            token: userToken,
             onSuccess: () {
               setState(() {
                 twilioInit = false;
@@ -352,19 +353,23 @@ class _AppState extends State<App> {
 }
 
 class _LogoutAction extends StatelessWidget {
+  final String token;
   final void Function()? onSuccess;
   final void Function(String error)? onFailure;
 
   const _LogoutAction({
     this.onSuccess,
     this.onFailure,
+    required this.token,
   });
 
   @override
   Widget build(BuildContext context) {
     return TextButton.icon(
         onPressed: () async {
-          final result = await TwilioVoice.instance.unregister();
+          final result = await TwilioVoice.instance.unregister(
+            accessToken: token,
+          );
           if (result == true) {
             onSuccess?.call();
           } else {

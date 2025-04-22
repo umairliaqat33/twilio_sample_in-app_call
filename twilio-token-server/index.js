@@ -14,7 +14,7 @@ const token = new AccessToken(
     process.env.TWILIO_ACCOUNT_SID,
     process.env.TWILIO_API_KEY,
     process.env.TWILIO_API_SECRET,
-    { identity: 'BobId' }
+    { identity: 'AliceId' }
 );
 
 token.addGrant(voiceGrant);
